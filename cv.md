@@ -28,27 +28,35 @@ First Category Senior Specialist of Statistics and Analytics Division
 
 # Education:
 Ivane Javakhishvili Tbilisi State University, 
+>MA, Information Technologies
 
-MA, Information Technologies
 
-# LANGUAGE SKILLS:
+# Language skills:
 - Georgian - Native
-- English – Upper-intermediate (C1 acording to IELTS)
+- ![alt](/rsschool-cv/ielts.jpg) English – Upper-intermediate (C1 acording to IELTS)  
 - Russian – Advanced 
-- German – Advanced (level C2 according to Goethe-Zertifikat)
+- ![alt](/rsschool-cv/goethe.jpg) German – Advanced (level C2 according to Goethe-Zertifikat) 
 
+# Digital skills:
+> - SQL;
+> - Power BI;
+> - SPSS;
 
-DIGITAL SKILLS:
-SQL; Power BI; SPSS;
-
-
-
-
-
-
-
-
-
+# Code example:
+New member of CODEWARS: This code does not execute properly. Try to figure out why.
+```javascript
 function multiply(a, b){
  return a * b
 }
+
+```
+# Projects:
+
+> https://nshengela.github.io/rsschool-cv/cv
+
+
+# Briefly about myself:
+
+I have received education in the field of information technology but during my studies I began to work in public service, in the field that only required my technical and analytical skills.
+Despite of my 10-year working experience in the public sector in a completely different field, I have never assumed to give up on my profession. My main goal and challenge is to fulfill career in web development.
+I believe, that my education, motivation, diligence and desire to learn and to gain new skills will lead me through this path of becoming a proficient Frontend Developer. I will not spare time and energy to achieve this goal. 
