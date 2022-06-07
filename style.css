@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.full {
+    width: 100%;
+    max-width: 1280px;
+    min-height: 500px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+
+}
+
+.left {
+    position: initial;
+    background-color: rgb(127, 128, 133);
+    padding: 20px;
+
+}
+
+.right {
+    position: initial;
+    background-color: rgb(87, 205, 254);
+    padding: 20px;
+
+}
+
+.name {
+    color: rgb(25, 8, 121);
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+
+.image,
+.Contact,
+.Education,
+.Language,
+.Skills {
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.Summary,
+.Experience,
+.project,
+.Code,
+.title {
+    margin-bottom: 30px;
+    color: rgb(25, 8, 121);
+    padding: 10px;
+}
+
+.h2 {
+    background-color: rgb(4, 96, 150);
+}
