@@ -3,97 +3,150 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML CV</title>
     <link rel="stylesheet" href="style.css?v=1.0">
 </head>
 
 <body>
-    <div class="full">
-        <div class="left">
-            <div class="image">
-                <img src="file:///C:/Users/admin/Desktop/rs_school/rsschool-cv/personal.jpg" alt="cv picure">
-            </div>
-            <div class="Contact">
-                <h2>Contact Infotmation:</h2>
-                <p><b>Phone:</b> +995 591 414638</p>
-                <p><b>E-mail:</b> ninooshengelia@gmail.com</p>
-            </div>
-            <div class="Education">
-                <h2>Education:</h2>
-                <p><b>Ivane Javakhishvili Tbilisi State University,</b>
-                    <b>MA, Information Technologies</b>
-                </p>
-            </div>
-            <div class="Language">
-                <h2>Language skills</h2>
-                <ul>
-                    <li>Georgian - Native</li>
-                    <li>English – Upper-intermediate (C1 acording to IELTS) </li>
-                    <li>Russian – Advanced </li>
-                    <li>German – Advanced (level C2 according to Goethe-Zertifikat) </li>
-                </ul>
-            </div>
-            <div class="Skills">
-                <h2>Digital skills</h2>
-                <ul>
-                    <li>SQL</li>
-                    <li>Power BI</li>
-                    <li>SPSS</li>
-                </ul>
-            </div>
+
+    <header>
+        <div class="header_logo">
+            <h1 class="logo_name">Nino <span class="blue">Shengelia</span></h1>
         </div>
-        <div class="right">
-            <div class="name">
-                <h1>Nino Shengelia</h1>
+
+        <nav>
+            <p class="Curriculum_Vitae blue">Curriculum Vitae</p>
+            <ul class="header_menu horizontal_list">
+                <li><a href="#About_myself">About myself</a></li>
+                <li><a href="#Contact_Infortmation">Contact Information</a></li>
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#Work_experience">Work experience</a></li>
+                <li><a href="#Language_skills">Language skills</a></li>
+                <li><a href="#Digital_skills">Digital skills</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="left_col">
+            <div class="profile_frame"><img src="cvphoto.jpg" alt="photo for cv">
             </div>
-            <div class="title">
-                <p>Date of birth: 13/09/1990</p>
-                <p>Nationality: Georgia</p>
-            </div>
-            <div class="Summary">
-                <h2>Briefly about myself</h2>
-                <p>I have received education in the field of information technology but during my studies I began to
+
+            <div class="about_content">
+                <P class="info">Nationality: Georgia</P>
+                <P class="info">Date of birth: 13/09/1990</P>
+                <h2 id="About_myself">Briefly about myself:</h2>
+                <p style="text-align:justify;">I have received education in the field of information technology but
+                    during my studies I began to
                     work in public service, in the field that only required my technical and analytical skills.
                     Despite of my 10-year working experience in the public sector in a completely different field, I
                     have never assumed to give up on my profession. My main goal and challenge is to fulfill career in
                     web development.
                     I believe, that my education, motivation, diligence and desire to learn and to gain new skills will
                     lead me through this path of becoming a proficient Frontend Developer. I will not spare time and
-                    energy to achieve this goal.
-                </p>
+                    energy to achieve this goal. </p>
             </div>
-            <div class="Experience">
-                <h2>Work experience</h2>
-                <h3>Georgian National Energy and Water Supply Regulatory Commission</h3>
-                <p>10.2019-to present</p>
+            <div class="contact_details_content">
+                <h2 id="Contact_Information">Contact Information:</h2>
+                <p class="blue">Phone:</p>
+                <p>+995 591 414638</p>
+                <p class="blue">Email:</p>
+                <p>ninooshengelia@gmail.com</p>
+            </div>
+            <a href="mailto:ninooshengelia@gmail.com" class="send_message_button">
+                <span class="content">Send me a message </span>
+            </a>
+            <div>
+                <h2>Get social:</h2>
+                <a class="facebook_icon" href="https://www.facebook.com/nino.shengelia.73/"></a>
+            </div>
+        </div>
+
+        <div id="content_container">
+            <div class="block">
+                <h2 id="Education">Education</h2>
+                <p>Ivane Javakhishvili Tbilisi State University,</p>
+                <p>MA, Information Technologies</p>
+
+            </div>
+            <div class="block">
+                <h2 id="Work_experience">Work experience: </h2>
+                <p>10.2019-to date - Georgian National Energy and Water Supply Regulatory Commission</p>
+                <p>Senior Specialist of Commercial Service Quality Control Department</p>
                 <ul>
                     <li>Database management and reporting;</li>
                     <li>Data Analytics and Visualization;</li>
                     <li>Preparing reports/publications. </li>
                 </ul>
-                <h3>Ministry of Environmental Protection and Agriculture of Georgia</h3>
-                <p>02.16-10.2019 </p>
+            </div>
+            <div class="horizontal_line">
+                <div class="line_left"></div>
+                <div class="line_right"></div>
+            </div>
+            <div class="block">
+                <p>10.2019-to date - Georgian National Energy and Water Supply Regulatory Commission</p>
+                <p>Senior Specialist of Commercial Service Quality Control Department</p>
                 <ul>
                     <li>Database management and reporting;</li>
-                    <li>Dvelopment of various research methodologies;</li>
-                    <li>Data collection and analysis of countries investment potential;</li>
-                    <li>Planning new surveys;</li>
-                    <li>Modeling and forecasting.</li>
+                    <li>Data Analytics and Visualization;</li>
+                    <li>Preparing reports/publications. </li>
                 </ul>
             </div>
-            <div class="Code">
-                <h2>Code example</h2>
-                <p> New member of CODEWARS: This code does not execute properly. Try to figure out why. javascript
-                    function multiply(a, b){return a * b} </p>
+            <div class="horizontal_line">
+                <div class="line_left"></div>
+                <div class="line_right"></div>
             </div>
-            <div class="project">
-                <h2>Projects</h2>
-                <p>
-                    <a href="https://nshengela.github.io/rsschool-cv/cv">Link of my first project on Github</a>
+            <div class="block">
+                <h2 id="Language_skills">Language skills:</h2>
+                <ul>
+                    <li>Georgian - Native</li>
+                    <li>English – Upper-intermediate (C1 acording to IELTS)</li>
+                    <li>Russian – Advanced </li>
+                    <li>German – Advanced (level C2 according to Goethe-Zertifikat) </li>
+                </ul>
+            </div>
+            <div class="block">
+                <h2 id="Digital_skills">Digital skills:</h2>
+                <ul>
+                    <li>SQL</li>
+                    <li>Power BI</li>
+                    <li>SPSS</li>
+                </ul>
+            </div>
+            <div class="block">
+                <h2>Code example:</h2>
+                <p> New member of CODEWARS:</p>
+                <p> This code does not execute properly. Try to figure out why.</p>
+                <pre>
+                    <code>
+                        function multiply(a, b){
+                            return a * b
+                           }
+                    </code>
+                </pre>
+            </div>
+            <div class="block">
+                <h2>Projects:</h2>
+                <p><a href="https://nshengela.github.io/rsschool-cv/cv" style="text-decoration: none">First project in
+                        the Rolling Scopes School</a>
                 </p>
             </div>
         </div>
-    </div>
+
+    </main>
+
+    <footer>
+        <p class="footer_name">Nino Shengelia CV 2022</p>
+        <div class="right_footer">
+            <a class="github" href="https://github.com/nshengela"></a>
+        </div>
+        <div class="left_footer">
+            <a class="Rsschool" href="https://rs.school/js-stage0/"></a>
+        </div>
+    </footer>
+
 </body>
 
 </html>
